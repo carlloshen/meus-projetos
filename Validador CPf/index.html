@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>ValidadorCPF</title>
+  </head>
+  <body>
+    <div class="container">
+      <form action="#" class="formulario">
+        <label for="cpf"><h1>Digite apenas numeros</h1></label>
+        <input
+          type="text"
+          name="cpf"
+          class="cpf"
+          maxlength="14"
+          minlength="9"
+          placeholder="Digite aqui seu CPF"
+        />
+        <button type="submit" id="botao">verificar</button>
+      </form>
+      <div id="spam">Cpf Inválido</div>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
